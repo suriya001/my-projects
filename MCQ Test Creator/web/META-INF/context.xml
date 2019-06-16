@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<Context path="/MCQ"/>-->
+<Context path="/MCQ">
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="100" maxIdle="10" maxWait="10000" name="jdbc/TestDB" password="12345" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/mcq" username="postgres"/>
+</Context>

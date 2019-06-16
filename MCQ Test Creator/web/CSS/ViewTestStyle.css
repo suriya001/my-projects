@@ -1,0 +1,72 @@
+h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 32px;
+}
+table, td, th 
+{  
+    border: 1px solid #111;
+    text-align: center;
+}
+
+table 
+{
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+}
+
+th 
+{
+    padding: 20px;
+    font-size: 25px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+td
+{
+    padding: 18px;
+    font-size: 22px;
+}
+.testBtn
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 170px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.testBtn:hover
+{
+    cursor: pointer;
+    background: #C0C0C0;
+    color: #000;
+}
+
+input[name="createTest"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 170px;
+    margin-left: 1735px;
+    background: #111;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input[name="createTest"]:hover
+{
+    cursor: pointer;
+    background: #C0C0C0;
+    color: #111;
+}

@@ -1,0 +1,32 @@
+ul 
+{
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left: 0px;                
+    padding-top: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+}
+
+li input[name="logout"]
+{
+    font-size: 20px;
+    display: block;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    border: none;
+}
+
+li input[name="logout"]:hover:not(.active) 
+{
+    background-color: #111;
+}

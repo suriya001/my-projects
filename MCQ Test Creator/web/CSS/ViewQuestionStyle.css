@@ -1,0 +1,123 @@
+.questionDiv body
+{
+    margin: 30;
+    padding: 0;
+    background-size: auto;
+    background-position: center;
+    font-family: sans-serif;
+} 
+.questionDiv h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.questionDiv
+{
+    margin-bottom: 20px;
+    width: 1620px;
+    color: #111;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 2%;
+    height: 730px;
+}
+
+.questionDiv p
+{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.question
+{
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.option
+{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder
+{
+    color: #C0C0C0;
+    font-size: 18px;
+}
+
+.questionDiv input
+{
+    margin-bottom: 20px;
+}
+
+.question input[type="text"]
+{
+    border:none;
+    border-bottom: 1px solid #111;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 95%;
+    color: #111;
+    font-size: 20px;
+    padding-left: 10px; 
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.question input[type="button"], [id="quesAddBtn"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #111;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.question input[type="button"]:hover, [id="quesAddBtn"]:hover
+{
+    cursor: pointer;
+    background: #C0C0C0;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+input[id="BackBtn"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #111;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+input[id="BackBtn"]:hover
+{
+    cursor: pointer;
+    background: #C0C0C0;
+    color: #111;
+}
