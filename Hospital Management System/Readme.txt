@@ -1,0 +1,5 @@
+Hospital Management System (HMS) with the inbuilt dashboard is a windows application that can replace the existing file system. One of the necessary needs in hospitals nowadays is a Desktop application that has a database to maintain all the details of the hospital patients, doctors, employees, medicines and a dashboard within it. This dashboard is used to track and observe the changes in past records. So an efficient hospital management system with the dashboard is created to track records of patients based on the database which is being maintained and updated periodically by the hospital. This HMS contains all the details of the patients, doctors, nurse, medicines and the dashboard is used to display the overall statistics of the hospital as well as individual records in a pictographic manner. Since it is graphical, it helps in easy understanding of the records and comparison of the current conditions with the past conditions. This proposed system helps to compare, observe and predict data.
+
+Developed using:
+Visual C#
+Microsoft SQL Management Studio
